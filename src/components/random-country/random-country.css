@@ -1,0 +1,22 @@
+.country_info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+.country_info_wrapp{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.img_wrapp{
+    display: flex;
+    width: 30vw;
+    height: 200px;
+}
+.img_wrapp img{
+    max-width: 100%;
+}
+.country_name{
+    text-transform: uppercase;
+}

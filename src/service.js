@@ -16,14 +16,15 @@ export default class CountryApi {
         const res = await this.getResourse('/name/eesi');
         return res.results;
     }
+    
     callingCodeCountry(id){
         return this.getResourse(`/callingcode/${id}`);
     }
     
 }
 
-const cou = new CountryApi();
+// const cou = new CountryApi();
 
-cou.callingCodeCountry(372).then((body)=>{
-    console.log(body);
-});
+// cou.callingCodeCountry(372).then((body)=>{
+//     console.log(body);
+// });
